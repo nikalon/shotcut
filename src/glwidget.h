@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2015 Meltytech, LLC
+ * Copyright (c) 2011-2017 Meltytech, LLC
  * Author: Dan Dennedy <dan@dennedy.org>
  * 
  * This program is free software: you can redistribute it and/or modify
@@ -129,7 +129,6 @@ private:
     float m_zoom;
     QPoint m_offset;
     QOffscreenSurface m_offscreenSurface;
-    QOpenGLContext* m_shareContext;
     SharedFrame m_sharedFrame;
     QMutex m_mutex;
 
